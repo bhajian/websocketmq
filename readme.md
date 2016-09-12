@@ -6,7 +6,7 @@ between two application and those applications are running in a highly available
 available server where a websocket is used, we would need a message queue as another layer behind the websocket
 server to deliver the message to the right server which is connected to the destination client.
 
-[![authenticate(https://github.com/bhajian/wsmq/blob/master/MQ.png)]
+[![ws-mq model](https://github.com/bhajian/wsmq/blob/master/MQ.png)]
 
 Message queue protocols are also another way of end to end communication between 2 or more nodes.
 Most of message queue implementations are not easily pluggable with the user applications.
