@@ -1,0 +1,47 @@
+{
+  "name": "wsmq",
+  "version": "0.0.1",
+  "description": "wsmq websocket message queue interface between websocket and redis message queue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/mocha tests/**"
+  },
+  "keywords": [
+    "websocket",
+    "message",
+    "queue",
+    "redis",
+    "mq",
+    "high available",
+    "reliable"
+  ],
+  "author": {
+    "name": "Behnam Hajian",
+    "email": "b.hajian@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bhajian/wsmq.git"
+  },
+  "bugs": {
+    "url": "http://github.com/bhajian/wsmq/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "password-hash": "^1.2.2",
+    "jsonwebtoken": "7.1.9",
+    "rsmq": "*",
+    "rsmq-worker": "*",
+    "ws": "*"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
