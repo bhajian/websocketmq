@@ -9,7 +9,7 @@ var ws = new WebSocket('ws://localhost:3000/', {
 }});
 
 ws.on('open', function open() {
-  ws.send(JSON.stringify({userId: '57c8ffa6d133a25447d8883c'}));
+  ws.send('/subscribe/57c8ffa6d133a25447d8883c');
   setTimeout(function timeout() {
     ws.send(Date.now().toString(), {mask: true});
   }, 1000);

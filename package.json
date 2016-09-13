@@ -1,6 +1,6 @@
 {
-  "name": "wsmq",
-  "version": "0.0.1",
+  "name": "websocketmq",
+  "version": "0.1.1",
   "description": "wsmq websocket message queue interface between websocket and redis message queue",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bhajian/wsmq.git"
+    "url": "git://github.com/bhajian/websocketmq.git"
   },
   "bugs": {
-    "url": "http://github.com/bhajian/wsmq/issues"
+    "url": "http://github.com/bhajian/websocketmq/issues"
   },
   "licenses": [
     {
@@ -35,13 +35,15 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "password-hash": "^1.2.2",
-    "jsonwebtoken": "7.1.9",
-    "rsmq": "*",
-    "rsmq-worker": "*",
-    "ws": "*"
+    "rsmq": "0.7.1",
+    "rsmq-worker": "0.5.1",
+    "ws": "^1.1.1",
+    "lodash": "4.15.0"
   },
   "devDependencies": {
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.4",
+    "express": "^4.12.3",
+    "tokens2": "*",
+    "mongoose": "*"
   }
 }
