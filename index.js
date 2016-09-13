@@ -4,5 +4,4 @@
 
 'use strict';
 
-module.exports.authentication = require('./lib/authentication');
-module.exports.verification = require('./lib/verification');
+module.exports.websocketMQServer = require('./lib/websocket-mq');
