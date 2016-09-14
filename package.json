@@ -1,6 +1,6 @@
 {
   "name": "websocketmq",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "wsmq websocket message queue interface between websocket and redis message queue",
   "main": "index.js",
   "scripts": {
